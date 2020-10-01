@@ -19,7 +19,7 @@
 .checkbox-uncheck {
 }
 .tag {
-  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-family:'PingFang SC Normal', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -35,7 +35,7 @@
   text-align:center;
 }
 .tag-warning {
-  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-family:'PingFang SC Normal', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -43,7 +43,7 @@
   text-align:center;
 }
 .tag-info {
-  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-family:'PingFang SC Normal', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -51,7 +51,7 @@
   text-align:center;
 }
 .tag-danger {
-  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-family:'PingFang SC Normal', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -147,7 +147,7 @@
 ._线段 {
 }
 ._连接符 {
-  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-family:'PingFang SC Normal', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   color:#000000;

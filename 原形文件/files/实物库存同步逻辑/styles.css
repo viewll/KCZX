@@ -905,7 +905,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Nunito Sans Bold', 'Nunito Sans';
+  font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -918,7 +918,7 @@
   width:160px;
   height:27px;
   display:flex;
-  font-family:'Nunito Sans Bold', 'Nunito Sans';
+  font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans';
   font-weight:700;
   font-style:normal;
   font-size:20px;
