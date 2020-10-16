@@ -68,7 +68,23 @@
       <div id="u311" class="ax_default _文本">
         <img id="u311_img" class="img " src="images/全局说明/u311.svg"/>
         <div id="u311_text" class="text ">
-          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">1、可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）此类商品在活动库存冻结，下单冻结时优先扣减店铺可售库存；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">b）若店铺可售库存不足且虚拟库存不为0时再扣减虚拟库存，虚拟库存最多可扣成为0；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">c）店铺可售库存在扣完虚拟库存后可再扣减成为负数；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">d）仓库库存按照正常逻辑扣减，超卖时候对应的已分配可售库存会存在扣减成为负数情况；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">2、不可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）此类商品在活动库存冻结，下单冻结扣减的均为店铺可售库存，可售库存不足时候不允许再扣减导致超卖</span></p>
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">1、可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）此类商品在活动库存冻结，下单冻结时扣减店铺可售库存，对应的可售库存会存在为负数情况，不用管虚拟库存；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">b）仓库库存按照正常逻辑扣减，超卖时候对应的已分配可售库存会存在扣减成为负数情况；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">2、不可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）此类商品在活动库存冻结，下单冻结扣减优先扣减店铺可售库存，可售库存不足时候再扣减虚拟库存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u312" class="ax_default label">
+        <div id="u312_div" class=""></div>
+        <div id="u312_text" class="text ">
+          <p><span>二、商品字段说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u313" class="ax_default _文本">
+        <img id="u313_img" class="img " src="images/全局说明/u311.svg"/>
+        <div id="u313_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">1、可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">商品可以超过库存进行销售，在店铺和仓库层面分别有对应的标识，分别对应在店铺销售和仓库库存扣减的时候校验释放可以将库存减为负数；可超卖商品店铺可售库存可以扣减为负数，仓库已分配可售库存可用扣减为负数</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">2、不可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）商品不超过库存进行销售，在店铺和仓库层面分别有对应的标识，店铺-不可超卖商品仅可将可售和虚拟库存扣减为0,不可为负数；仓库-不可超卖商品不能将已分配可售变为负数（店铺设置虚拟库存大于0的时候，此商品在仓库层面应该是可超卖的）</span></p>
         </div>
       </div>
     </div>
