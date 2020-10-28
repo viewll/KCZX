@@ -19,7 +19,7 @@
 .checkbox-uncheck {
 }
 .tag {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -35,7 +35,7 @@
   text-align:center;
 }
 .tag-warning {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -43,7 +43,7 @@
   text-align:center;
 }
 .tag-info {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -51,7 +51,7 @@
   text-align:center;
 }
 .tag-danger {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -147,7 +147,7 @@
 ._线段 {
 }
 ._连接符 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   color:#000000;
@@ -158,87 +158,87 @@
 .form_disabled {
 }
 .box_浅灰 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
 }
 .box_浅蓝 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
 }
 .tips_提示 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
   font-weight:200;
   font-style:normal;
   font-size:14px;
   color:#31708F;
 }
 .tips_成功 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
   font-weight:200;
   font-style:normal;
   font-size:14px;
   color:#3C763D;
 }
 .tips_警示 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
   font-weight:200;
   font-style:normal;
   font-size:14px;
   color:#8A6D3B;
 }
 .tips_危险 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
   font-weight:200;
   font-style:normal;
   font-size:14px;
   color:#AB4F54;
 }
 .btn_空心 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#666666;
 }
 .btn_主要 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 .btn_成功 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 .btn_信息 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 .btn_警示 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 .btn_危险 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
   font-weight:500;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 ._导航按钮 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   color:#999999;
@@ -378,7 +378,7 @@
   color:#999999;
 }
 ._文本框 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   color:#333333;
@@ -392,7 +392,7 @@
   text-align:left;
 }
 ._注释 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -400,7 +400,7 @@
   text-align:left;
 }
 ._复选框 {
-  font-family:'PingFang SC Normal', 'PingFang SC';
+  font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
   text-align:left;
