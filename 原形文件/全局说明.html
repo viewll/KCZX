@@ -82,9 +82,25 @@
 
       <!-- Unnamed (形状) -->
       <div id="u385" class="ax_default _文本">
-        <img id="u385_img" class="img " src="images/全局说明/u383.svg"/>
+        <img id="u385_img" class="img " src="images/全局说明/u385.svg"/>
         <div id="u385_text" class="text ">
           <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">1、可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">商品可以超过库存进行销售，在店铺和仓库层面分别有对应的标识，分别对应在店铺销售和仓库库存扣减的时候校验释放可以将库存减为负数；可超卖商品店铺可售库存可以扣减为负数，仓库已分配可售库存可用扣减为负数</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">2、不可超卖商品</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a）商品不超过库存进行销售，在店铺和仓库层面分别有对应的标识，店铺-不可超卖商品仅可将可售和虚拟库存扣减为0,不可为负数；仓库-不可超卖商品不能将已分配可售变为负数（店铺设置虚拟库存大于0的时候，此商品在仓库层面应该是可超卖的）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u386" class="ax_default label">
+        <div id="u386_div" class=""></div>
+        <div id="u386_text" class="text ">
+          <p><span>三、数据同步说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u387" class="ax_default _文本">
+        <img id="u387_img" class="img " src="images/全局说明/u385.svg"/>
+        <div id="u387_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">1、ERP数据初始化</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">a)&nbsp; 新增商品的时候，ERP过来的商品是生鲜的仓库，销售层均可超卖，对应的仓库库存会存在为负数；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">b)&nbsp; 若是标品（非生鲜）如果ERP库存为正数则为不可超卖（仓库、销售层均是），若是负数则均为可超卖（仓库、销售层均是）</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">2、同步微盟数据规则</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">1、可超卖的商品暂时不用同步库存到微盟</span></p>
         </div>
       </div>
     </div>
